@@ -429,16 +429,13 @@ function FeatureCard({ feature, isActive, index }) {
             className="flex items-center gap-1.5 px-3 py-2 border-b"
             style={{ borderColor: feature.accentColor + '18' }}
           >
-            <div className="w-2 h-2 rounded-full bg-red-500/50" />
-            <div className="w-2 h-2 rounded-full bg-yellow-500/50" />
-            <div className="w-2 h-2 rounded-full" style={{ background: feature.accentColor + '80' }} />
-            <span className="ml-2 font-mono text-[10px] text-slate-600">live.preview</span>
+            <span className="font-mono text-[10px] text-slate-600">live.preview</span>
           </div>
           <div className="h-[calc(100%-28px)]">
             {feature.visual}
           </div>
         </div>
-      </div>
+      </div>  
 
       {/* Number watermark */}
       <div
