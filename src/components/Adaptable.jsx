@@ -309,7 +309,7 @@ function ProgressDot({ active, color, onClick }) {
   return (
     <button
       onClick={onClick}
-      className="relative flex items-center justify-center w-5 h-5 cursor-none group"
+      className="relative flex items-center justify-center w-5 h-60 cursor-none group"
     >
       <span
         className="absolute inset-0 rounded-full transition-all duration-300 scale-0 group-hover:scale-100"
