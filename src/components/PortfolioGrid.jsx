@@ -33,7 +33,15 @@ function ProjectCard({ project, index }) {
               backgroundSize: '30px 30px',
             }}
           />
-          <span className="text-6xl opacity-50 relative z-10">{project.imagePlaceholder}</span>
+          {project.imageSrc ? (
+            <img
+              src={project.imageSrc}
+              alt={project.title}
+              className="relative z-10 h-24 w-24 object-contain opacity-90"
+            />
+          ) : (
+            <span className="text-6xl opacity-50 relative z-10">{project.imagePlaceholder}</span>
+          )}
         </motion.div>
 
         {/* Hover overlay */}
@@ -100,7 +108,7 @@ function ProjectCard({ project, index }) {
           className="mt-4 flex items-center gap-1.5 text-xs font-semibold tracking-widest uppercase"
           style={{ color: project.accentColor }}
         >
-          <ExternalLink size={12} /> Live Project
+          {/* <ExternalLink size={12} /> Live Project */}
         </motion.div>
       </motion.div>
 

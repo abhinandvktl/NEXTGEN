@@ -1,76 +1,44 @@
-export const projectsData = [
+import { LayoutDashboard } from "lucide-react"
+import dharithriIcon from '../assets/projects/dharithri.svg';
+
+
+export const projectsData = [  
   {
     id: 1,
-    title: 'Project Alpha — E-Commerce',
+    title: 'DHARITHRI — Postnatal Care',
     description:
-      'Apple-inspired product showcase with fluid transitions, 3D product views, and a conversion-optimized checkout. Delivered $12M in year-one revenue for our client.',
-    imagePlaceholder: '🛍️',
-    gradient: 'linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #0f172a 100%)',
-    accentColor: '#3b82f6',
-    tags: ['React', 'Node.js', 'AWS', 'Stripe', 'Redis'],
-    liveLink: '#',
-    solution: 'Full-Stack E-Commerce Platform',
-  },
-  {
-    id: 2,
-    title: 'Project Beta — Fintech',
-    description:
-      'Stripe-caliber financial dashboard with real-time data visualization, complex analytics, and enterprise-grade security serving 200K+ users globally.',
-    imagePlaceholder: '📊',
-    gradient: 'linear-gradient(135deg, #0a0a1a 0%, #1a1a3e 50%, #0d1f3c 100%)',
-    accentColor: '#818cf8',
-    tags: ['Next.js', 'D3.js', 'PostgreSQL', 'WebSockets'],
-    liveLink: '#',
-    solution: 'Real-Time Analytics Dashboard',
-  },
-  {
-    id: 3,
-    title: 'Project Gamma — Real-time',
-    description:
-      'Discord-inspired community platform with WebSocket-powered real-time messaging, voice channels, and a 99.99% uptime SLA for 500K concurrent users.',
-    imagePlaceholder: '💬',
-    gradient: 'linear-gradient(135deg, #0d0f1a 0%, #1a0d3d 50%, #0f0a2e 100%)',
-    accentColor: '#a78bfa',
-    tags: ['WebSockets', 'Redis', 'React', 'Docker', 'Go'],
-    liveLink: '#',
-    solution: 'Real-Time Communication Platform',
-  },
-  {
-    id: 4,
-    title: 'Project Delta — SaaS',
-    description:
-      'Enterprise SaaS platform with multi-tenant architecture, role-based access control, and seamless integrations for Fortune 500 workflow automation.',
-    imagePlaceholder: '⚡',
-    gradient: 'linear-gradient(135deg, #0f1a0f 0%, #1a3020 50%, #0a1a15 100%)',
-    accentColor: '#34d399',
-    tags: ['TypeScript', 'Prisma', 'AWS Lambda', 'GraphQL'],
-    liveLink: '#',
-    solution: 'Enterprise SaaS Architecture',
-  },
-  {
-    id: 5,
-    title: 'Project Epsilon — AI',
-    description:
-      'LLM-powered document intelligence platform processing 50M+ pages monthly with custom fine-tuned models and sub-200ms inference response times.',
-    imagePlaceholder: '🤖',
-    gradient: 'linear-gradient(135deg, #1a0f0a 0%, #3d1a0d 50%, #1a0f0a 100%)',
-    accentColor: '#fb923c',
-    tags: ['Python', 'FastAPI', 'LangChain', 'Pinecone'],
-    liveLink: '#',
-    solution: 'AI Document Intelligence',
-  },
-  {
-    id: 6,
-    title: 'Project Zeta — Mobile',
-    description:
-      'Cross-platform mobile super-app with native performance, offline-first architecture, and 4.9-star App Store rating across 2M+ downloads.',
-    imagePlaceholder: '📱',
-    gradient: 'linear-gradient(135deg, #0a0a1a 0%, #1a0a2e 50%, #0f0a20 100%)',
-    accentColor: '#f472b6',
-    tags: ['React Native', 'Expo', 'Supabase', 'TypeScript'],
-    liveLink: '#',
-    solution: 'Cross-Platform Mobile App',
-  },
+      'A modern, responsive postnatal care platform featuring a specialized pink-themed UI, interactive facility galleries, and mobile-first architecture for maternal wellness.',
+    imageSrc: dharithriIcon,
+    gradient: 'linear-gradient(135deg, #fce4ec 0%, #f8bbd9 50%, #f06292 100%)',
+    accentColor: '#e91e63',
+    tags: ['React', 'CSS3', 'Mobile-First', 'Responsive Design'],
+    liveLink: 'https://dharithri-bwezvno0g-abhinand-vs-projects.vercel.app/', // Replace with your deployment URL (e.g., Netlify/Vercel link)
+    solution: 'Postnatal Wellness Web App',
+},
+{
+  id: 2,
+  title: 'LOKWEDDING — Creative Studio',
+  description:
+    'A high-end photography portfolio featuring masonry grid layouts, lazy-loading image optimization, and a seamless client booking system for professional shoots.',
+  imagePlaceholder: '📸', // You can replace this with an imported SVG later
+  gradient: 'linear-gradient(135deg, #1a1a1a 0%, #2d3436 50%, #000000 100%)',
+  accentColor: '#fab1a0',
+  tags: ['Next.js', 'Framer Motion', 'Cloudinary', 'Tailwind CSS'],
+  liveLink: '#',
+  solution: 'Digital Portfolio Website',
+},
+{
+  id: 3,
+  title: 'Project Alpha — E-Commerce',
+  description:
+    'Apple-inspired product showcase with fluid transitions, 3D product views, and a conversion-optimized checkout. Delivered $12M in year-one revenue for our client.',
+  imagePlaceholder: '🛍️',
+  gradient: 'linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #0f172a 100%)',
+  accentColor: '#3b82f6',
+  tags: ['React', 'Node.js', 'AWS', 'Stripe', 'Redis'],
+  liveLink: '#',
+  solution: 'Full-Stack E-Commerce Platform',
+}
 ]
 
 export const servicesData = [
